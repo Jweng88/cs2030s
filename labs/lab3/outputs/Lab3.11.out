@@ -1,0 +1,12 @@
+1.000: C0 arrived [ ]
+1.000: C0 Deposit begin (by S0 [ ])
+2.000: C0 Deposit done (by S0 [ ])
+2.000: C0 departed
+3.000: C1 arrived [ ]
+3.000: C1 Withdrawal begin (by S0 [ ])
+4.000: C1 Withdrawal done (by S0 [ ])
+4.000: C1 departed
+5.000: C2 arrived [ ]
+5.000: C2 OpenAccount begin (by S0 [ ])
+6.000: C2 OpenAccount done (by S0 [ ])
+6.000: C2 departed
