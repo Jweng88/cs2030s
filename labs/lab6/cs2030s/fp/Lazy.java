@@ -132,8 +132,20 @@ public class Lazy<T> {
    */
   @Override
   public boolean equals(Object other) {
+    if (this == other) {
+      return true;
+    }
+
     if (other instanceof Lazy<?>) {
       Lazy<?> l = (Lazy<?>) other;
+
+      if (this.get() == l.get()) {
+        return true;
+      }
+
+      if (this.get() == null || l.get() == null) {
+        return false;
+      }
 
       return this.get().equals(l.get());
     }
